@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>We are the Champions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Ysabeau+Infant:wght@300;400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="assets/freddie.png" alt="page logo">
+                <h1>We are the Champions</h1>
+
+                <textarea name="post" 
+                id="post-it" 
+                class="post-it"
+                cols="30" 
+                rows="10"
+                placeholder="Write your endorsement here"></textarea>
+
+                <div class="input_flex">
+                    <input type="text" 
+                    name="post-name-from" 
+                    id="post-it-from"
+                    class="post-input" 
+                    placeholder="from">
+    
+                    <input type="text" 
+                    name="post-name-to" 
+                    id="post-it-to" 
+                    class="post-input"
+                    placeholder="to">
+                </div>
+
+                <button id="post-it-btn">Publish</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <h2>- Endorsement -</h2>
+                <div id="post-page">
+                    <!-- post endorsement here -->
+                </div>
+            </div>
+        </main>
+        
+       
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
